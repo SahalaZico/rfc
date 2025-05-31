@@ -308,8 +308,10 @@ public class FSMMotor : MonoBehaviour
         switch (state)
         {
             case State.Idle:
+                skeleRoost.AnimationState.SetAnimation(0, "idle", true);
                 break;
             case State.Chase:
+                skeleRoost.AnimationState.SetAnimation(0, "walk", true);
                 break;
             case State.Action:
                 break;
@@ -428,7 +430,7 @@ public class FSMMotor : MonoBehaviour
         onHit = false;
         if (state == State.Dead)
             return;
-        skeleRoost.AnimationState.SetAnimation(0, "idle", true);
+        
         anim.Play("idle");
         SwitchStateTo(State.Idle);
     }
@@ -501,7 +503,6 @@ public class FSMMotor : MonoBehaviour
         onAction = false;
         onHit = false;
         onDodge = false;
-        skeleRoost.AnimationState.SetAnimation(0, "idle", true);
         anim.Play("idle");
         SwitchStateTo(State.Idle);
         SetToVictim(false);
@@ -541,7 +542,6 @@ public class FSMMotor : MonoBehaviour
         onAction = false;
         onHit = false;
         onDodge = false;
-        skeleRoost.AnimationState.SetAnimation(0, "idle", true);
         anim.Play("idle");
         SwitchStateTo(State.Idle);
         SetToVictim(false);

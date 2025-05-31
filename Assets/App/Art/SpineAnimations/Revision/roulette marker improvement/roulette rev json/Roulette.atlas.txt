@@ -1,0 +1,17 @@
+Roulette.png
+	size: 1024, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+Light
+	bounds: 496, 2, 19, 44
+	offsets: 2, 3, 23, 50
+	rotate: 90
+Light dim 1
+	bounds: 496, 23, 231, 231
+	offsets: 6, 5, 243, 241
+Light dim 2
+	bounds: 496, 256, 238, 232
+	rotate: 90
+Roulette
+	bounds: 2, 2, 492, 492

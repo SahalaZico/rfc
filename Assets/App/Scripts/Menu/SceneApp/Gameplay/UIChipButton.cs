@@ -41,13 +41,13 @@ public class UIChipButton : Button
         skinChip.sprite = passedSprite;
     }
 
-    // protected override void OnValidate()
-    // {
-    //     base.OnValidate();
+    protected override void OnValidate()
+    {
+        base.OnValidate();
 
-    //     if (textChip == null)
-    //         return;
+        if (textChip == null)
+            return;
 
-    //     textChip.text = StringUtility.ConvertToFormatNumber(amountChip);
-    // }
+        textChip.text = StringUtility.ConvertToFormatNumber(amountChip);
+    }
 }

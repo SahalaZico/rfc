@@ -1,0 +1,90 @@
+Coin Burst.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+CoinBorder
+	bounds: 2, 312, 90, 760
+	rotate: 90
+Flare_03_bl
+	bounds: 311, 404, 307, 307
+Glow_Neo
+	bounds: 867, 762, 512, 512
+RFC logo
+	bounds: 2, 713, 863, 561
+	offsets: 57, 0, 993, 584
+Spin_noBorder
+	bounds: 1381, 801, 471, 473
+coin/11.png/Flip-In2_00
+	bounds: 620, 474, 236, 237
+	offsets: 53, 37, 344, 314
+coin/11.png/Flip-In2_01
+	bounds: 2, 116, 237, 194
+	offsets: 53, 61, 344, 314
+coin/11.png/Flip-In2_02
+	bounds: 1695, 77, 237, 152
+	offsets: 53, 84, 344, 314
+coin/11.png/Flip-In2_03
+	bounds: 958, 72, 237, 110
+	offsets: 53, 107, 344, 314
+coin/11.png/Flip-In2_04
+	bounds: 1612, 7, 237, 68
+	offsets: 53, 130, 344, 314
+coin/11.png/Flip-In2_05
+	bounds: 620, 447, 237, 25
+	offsets: 53, 153, 344, 314
+coin/11.png/Flip-In2_06
+	bounds: 480, 8, 237, 51
+	offsets: 53, 131, 344, 314
+coin/11.png/Flip-In2_07
+	bounds: 1934, 70, 237, 100
+	offsets: 53, 105, 344, 314
+	rotate: 90
+coin/11.png/Flip-In2_08
+	bounds: 1373, 42, 237, 148
+	offsets: 53, 79, 344, 314
+coin/11.png/Flip-In2_09
+	bounds: 1695, 231, 237, 195
+	offsets: 53, 54, 344, 314
+coin/11.png/Flip-In2_10
+	bounds: 1754, 548, 291, 278
+	offsets: 32, 24, 344, 314
+	rotate: 90
+coin/11.png/Flip-In2_11
+	bounds: 241, 117, 237, 193
+	offsets: 53, 64, 344, 314
+coin/11.png/Flip-In2_12
+	bounds: 719, 61, 237, 151
+	offsets: 53, 86, 344, 314
+coin/11.png/Flip-In2_13
+	bounds: 1934, 309, 237, 108
+	offsets: 53, 108, 344, 314
+	rotate: 90
+coin/11.png/Flip-In2_14
+	bounds: 958, 5, 237, 65
+	offsets: 53, 131, 344, 314
+coin/11.png/Flip-In2_15
+	bounds: 1197, 17, 237, 23
+	offsets: 53, 153, 344, 314
+coin/11.png/Flip-In2_16
+	bounds: 2, 2, 237, 21
+	offsets: 53, 148, 344, 314
+coin/11.png/Flip-In2_17
+	bounds: 241, 25, 237, 90
+	offsets: 53, 112, 344, 314
+coin/11.png/Flip-In2_18
+	bounds: 480, 151, 237, 159
+	offsets: 53, 76, 344, 314
+coin/11.png/Flip-In2_19
+	bounds: 764, 214, 237, 229
+	offsets: 53, 39, 344, 314
+dust spark
+	bounds: 1475, 192, 218, 234
+light_yellow
+	bounds: 2, 404, 307, 307
+light_yellow2
+	bounds: 1381, 428, 371, 371
+shine white
+	bounds: 867, 445, 315, 315
+shine yellow
+	bounds: 1086, 184, 317, 387
+	rotate: 90

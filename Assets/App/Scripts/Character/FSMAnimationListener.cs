@@ -39,8 +39,7 @@ public class FSMAnimationListener : MonoBehaviour
 
     [SerializeField] protected FSMMotor motor = null;
     [SerializeField] protected FSMDamageCollider damageCollider = null;
-    [SerializeField] protected SkeletonAnimation vfxClaw = null;
-    [SerializeField] protected SkeletonAnimation vfxClash = null;
+    [SerializeField] protected Transform transClash = null;
     [SerializeField] protected TrailRenderer vfxTrail = null;
     [SerializeField] protected List<FSMAudioAction> audios = new List<FSMAudioAction>();
 
@@ -50,14 +49,12 @@ public class FSMAnimationListener : MonoBehaviour
 
     public void PlayClash()
     {
-        vfxClash.gameObject.SetActive(true);
-        vfxClash.AnimationState.SetAnimation(0, "clash", false);
+        BattleManager.Instance.SpawnVFXHit(transClash.position, transClash.rotation);
     }
 
     public void PlayClaw()
     {
-        vfxClaw.gameObject.SetActive(true);
-        vfxClaw.AnimationState.SetAnimation(0, "claw", false);
+        BattleManager.Instance.SpawnVFXAttack(transClash.position, transClash.rotation);
     }
 
     public void PlayAudio(string key)
@@ -178,35 +175,35 @@ public class FSMAnimationListener : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        vfxClaw.AnimationState.Complete += (trackEntry) =>
-        {
-            if (trackEntry == null)
-                return;
+        //vfxClaw.AnimationState.Complete += (trackEntry) =>
+        //{
+        //    if (trackEntry == null)
+        //        return;
 
-            if (trackEntry.Animation == null)
-                return;
+        //    if (trackEntry.Animation == null)
+        //        return;
 
-            if (trackEntry.Animation.Name == "claw")
-            {
-                vfxClaw.gameObject.SetActive(false);
-            }
-        };
+        //    if (trackEntry.Animation.Name == "claw")
+        //    {
+        //        vfxClaw.gameObject.SetActive(false);
+        //    }
+        //};
 
-        vfxClash.AnimationState.Complete += (trackEntry) =>
-        {
-            if (trackEntry == null)
-                return;
+        //vfxClash.AnimationState.Complete += (trackEntry) =>
+        //{
+        //    if (trackEntry == null)
+        //        return;
 
-            if (trackEntry.Animation == null)
-                return;
+        //    if (trackEntry.Animation == null)
+        //        return;
 
-            if (trackEntry.Animation.Name == "clash")
-            {
-                vfxClash.gameObject.SetActive(false);
-            }
-        };
+        //    if (trackEntry.Animation.Name == "clash")
+        //    {
+        //        vfxClash.gameObject.SetActive(false);
+        //    }
+        //};
 
-        vfxClash.gameObject.SetActive(false);
-        vfxClaw.gameObject.SetActive(false);
+        //vfxClash.gameObject.SetActive(false);
+        //vfxClaw.gameObject.SetActive(false);
     }
 }

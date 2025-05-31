@@ -1,0 +1,83 @@
+background.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+BG
+	bounds: 2, 932, 559, 1022
+Layer 133
+	bounds: 874, 501, 373, 114
+	offsets: 51, 50, 461, 180
+	rotate: 90
+Ring
+	bounds: 2, 191, 667, 739
+Statue
+	bounds: 874, 248, 225, 251
+	offsets: 2, 0, 229, 251
+camera
+	bounds: 1011, 1328, 108, 113
+	offsets: 23, 20, 154, 154
+crowd bot1
+	bounds: 671, 191, 514, 201
+	offsets: 1, 2, 515, 203
+	rotate: 90
+crowd bot2
+	bounds: 2, 12, 565, 177
+	offsets: 0, 0, 565, 178
+crowd top L
+	bounds: 878, 1205, 221, 121
+	offsets: 0, 0, 222, 121
+crowd top L 2
+	bounds: 878, 1328, 235, 131
+	rotate: 90
+crowd top L 3
+	bounds: 990, 634, 117, 127
+	offsets: 0, 1, 117, 155
+crowd top R 1
+	bounds: 563, 957, 227, 102
+	rotate: 90
+crowd top R 2
+	bounds: 876, 7, 241, 133
+	rotate: 90
+crowd top R 3
+	bounds: 985, 1012, 111, 142
+	offsets: 0, 2, 111, 144
+laser big
+	bounds: 671, 708, 162, 476
+	offsets: 20, 87, 284, 863
+laser small
+	bounds: 563, 1186, 313, 768
+	offsets: 5, 5, 324, 778
+light_yellow
+	bounds: 1011, 1443, 106, 111
+	offsets: 24, 21, 154, 154
+light_yellow2
+	bounds: 985, 876, 134, 134
+	offsets: 26, 26, 186, 186
+screen L
+	bounds: 1011, 126, 121, 115
+	offsets: 0, 0, 121, 118
+	rotate: 90
+screen R
+	bounds: 990, 501, 131, 120
+	offsets: 0, 0, 131, 121
+	rotate: 90
+shine
+	bounds: 569, 2, 305, 187
+	offsets: 0, 9, 307, 196
+smoke
+	bounds: 980, 1617, 337, 63
+	offsets: 43, 18, 491, 111
+	rotate: 90
+smoke2
+	bounds: 878, 1565, 389, 100
+	offsets: 73, 4, 491, 111
+	rotate: 90
+spotlight1
+	bounds: 835, 876, 308, 148
+	offsets: 29, 59, 356, 207
+	rotate: 90
+spotlight2
+	bounds: 990, 763, 84, 131
+	offsets: 32, 55, 116, 187
+	rotate: 90

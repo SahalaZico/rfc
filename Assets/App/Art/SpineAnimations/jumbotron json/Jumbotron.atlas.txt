@@ -1,0 +1,64 @@
+Jumbotron.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+Bet
+	bounds: 2, 150, 519, 283
+Bet FX1
+	bounds: 1014, 156, 381, 191
+	rotate: 90
+Bet FX2
+	bounds: 832, 1588, 441, 200
+	offsets: 0, 0, 442, 200
+	rotate: 90
+Bet FX3
+	bounds: 832, 1169, 417, 202
+	rotate: 90
+FX screen
+	bounds: 2, 435, 593, 272
+	offsets: 9, 13, 613, 289
+Fight
+	bounds: 596, 2, 705, 182
+	rotate: 90
+Jumbotron
+	bounds: 2, 709, 828, 1320
+Light
+	bounds: 1166, 869, 424, 59
+	offsets: 3, 2, 430, 63
+	rotate: 90
+Light red L
+	bounds: 1259, 653, 34, 571
+	offsets: 1, 1, 36, 574
+Light red R
+	bounds: 1249, 1226, 34, 571
+	offsets: 1, 1, 36, 574
+Light small
+	bounds: 1207, 144, 393, 46
+	offsets: 2, 2, 397, 50
+	rotate: 90
+Result
+	bounds: 1036, 1169, 541, 128
+	rotate: 90
+Result FX
+	bounds: 780, 2, 535, 232
+	offsets: 1, 1, 537, 233
+	rotate: 90
+Result Star1
+	bounds: 1059, 704, 198, 163
+Result Star2
+	bounds: 1059, 539, 198, 163
+fire L
+	bounds: 1034, 1799, 224, 230
+	offsets: 0, 0, 225, 230
+fire R
+	bounds: 832, 662, 225, 230
+glow
+	bounds: 1166, 1295, 259, 81
+	offsets: 19, 8, 295, 97
+	rotate: 90
+screen
+	bounds: 1034, 1711, 208, 86
+shadow glow
+	bounds: 832, 894, 268, 273
+	offsets: 0, 13, 273, 301

@@ -1,17 +1,14 @@
 using Spine.Unity;
 using UnityEngine;
-using UnityEngine.UI;
 using DG.Tweening;
 
 public class UITitleScreen : UIPage
 {
     public static UITitleScreen Instance { get; protected set; }
 
-    //[SerializeField] protected SkeletonGraphic titleScreenSpine = null;
+    [SerializeField] protected SkeletonGraphic titleScreenSpine = null;
     //[SerializeField] protected Image titleLogo = null;
-    //[SerializeField] protected RectTransform actionContainer = null;
-    //[SerializeField] protected Button btnStart = null;
-    //[SerializeField] protected Button btnHistory = null;
+    [SerializeField] protected RectTransform actionContainer = null;
 
     protected Sequence transSequence = null;
 
@@ -33,11 +30,13 @@ public class UITitleScreen : UIPage
 
         if (state)
         {
-            //titleScreenSpine.AnimationState.SetAnimation(0, "start", false);
+            titleScreenSpine.AnimationState.SetAnimation(0, "start", false);
 
             //transSequence = DOTween.Sequence();
             //transSequence.Append(actionContainer.DOAnchorPos(new Vector2(0f, 0f), 0.75f));
             //transSequence.Join(titleLogo.DOFade(1f, 0.35f));
+
+            UIGameplay.Instance.IsOpenOption = false;
         }
     }
 
@@ -52,43 +51,36 @@ public class UITitleScreen : UIPage
     {
         base.Start();
 
-        //if (titleScreenSpine != null)
-        //{
+        if (titleScreenSpine != null)
+        {
 
-        //    titleScreenSpine.AnimationState.Start += (Spine.TrackEntry entry) =>
-        //    {
-        //        if (entry == null)
-        //            return;
+            titleScreenSpine.AnimationState.Start += (Spine.TrackEntry entry) =>
+            {
+                if (entry == null)
+                    return;
 
-        //        if (entry.Animation == null)
-        //            return;
+                if (entry.Animation == null)
+                    return;
 
-        //        if (entry.Animation.Name == "start game")
-        //        {
-        //            //transSequence = DOTween.Sequence();
-        //            //transSequence.Append(actionContainer.DOAnchorPos(new Vector2(0f, -1000f), 0.75f));
-        //            //transSequence.Join(titleLogo.DOFade(0f, 0.35f));
-        //        }
-        //    };
+                if (entry.Animation.Name == "start game") {}
+            };
 
-        //    titleScreenSpine.AnimationState.Complete += (Spine.TrackEntry entry) =>
-        //    {
-        //        if (entry == null)
-        //            return;
+            titleScreenSpine.AnimationState.Complete += (Spine.TrackEntry entry) =>
+            {
+                if (entry == null)
+                    return;
 
-        //        if (entry.Animation == null)
-        //            return;
+                if (entry.Animation == null)
+                    return;
 
-        //        if (entry.Animation.Name == "start game")
-        //        {
-        //            //UIRenderer.Instance.OpenPage(UIGameplay.Instance);
-        //        } else if (entry.Animation.Name == "start")
-        //        {
-        //            titleScreenSpine.AnimationState.SetAnimation(0, "idle", true);
-        //        }
-        //    };
-        //}
+                if (entry.Animation.Name == "start")
+                {
+                    titleScreenSpine.AnimationState.SetAnimation(0, "idle", true);
+                    actionContainer.gameObject.SetActive(true);
+                }
+            };
+        }
 
-        //AudioManager.Instance.Play("bgm", "main", true);
+        AudioManager.Instance.Play("bgm", "main", true);
     }
 }

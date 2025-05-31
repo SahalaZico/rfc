@@ -1,4 +1,5 @@
 using DG.Tweening;
+using Lean.Pool;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -299,6 +300,30 @@ public class BattleManager : MonoBehaviour
         }
 
         return center;
+    }
+
+    [Header("Pool Object(s)")]
+    [SerializeField] protected LeanGameObjectPool vfxHitPool = null;
+    [SerializeField] protected LeanGameObjectPool vfxAttackPool = null;
+
+    public GameObject SpawnVFXHit(Vector3 position, Quaternion rotation)
+    {
+        return vfxHitPool.Spawn(position, rotation);
+    }
+
+    public GameObject SpawnVFXAttack(Vector3 position, Quaternion rotation)
+    {
+        return vfxAttackPool.Spawn(position, rotation);
+    }
+
+    public void DespawnVFXHit(GameObject spawnPool)
+    {
+        vfxHitPool.Despawn(spawnPool);
+    }
+
+    public void DespawnVFXAttack(GameObject spawnPool)
+    {
+        vfxAttackPool.Despawn(spawnPool);
     }
 
     private void Awake()
