@@ -1,0 +1,179 @@
+chicken asset.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+dead effect
+	bounds: 2, 576, 387, 256
+	offsets: 2, 2, 391, 260
+dead1
+	bounds: 391, 559, 224, 273
+dead2
+	bounds: 613, 559, 224, 273
+	rotate: 180
+fall body
+	bounds: 499, 325, 95, 145
+	rotate: 90
+fall head
+	bounds: 2, 267, 107, 181
+	rotate: 90
+fall leg L
+	bounds: 232, 2, 67, 86
+	rotate: 270
+fall leg R
+	bounds: 901, 560, 69, 50
+	offsets: 1, 0, 71, 51
+	rotate: 90
+hit leg R
+	bounds: 901, 560, 69, 50
+	offsets: 1, 0, 71, 51
+	rotate: 90
+fall tail
+	bounds: 399, 19, 79, 59
+hit tail
+	bounds: 399, 19, 79, 59
+fall wing L
+	bounds: 693, 40, 99, 99
+	rotate: 180
+fall wing R
+	bounds: 2, 89, 101, 101
+	rotate: 90
+hit body
+	bounds: 120, 120, 95, 89
+hit head
+	bounds: 646, 258, 109, 154
+	rotate: 90
+hit leg L
+	bounds: 544, 570, 70, 50
+	offsets: 1, 0, 72, 51
+hit wing L
+	bounds: 306, 32, 116, 79
+hit wing R
+	bounds: 85, 25, 116, 79
+idle body
+	bounds: 783, 207, 95, 145
+	rotate: 90
+rush1 body
+	bounds: 783, 207, 95, 145
+	rotate: 90
+rush2 body
+	bounds: 783, 207, 95, 145
+	rotate: 90
+idle head
+	bounds: 690, 125, 103, 165
+	offsets: 0, 0, 104, 165
+	rotate: 270
+idle leg L
+	bounds: 925, 4, 42, 50
+rush1 leg L
+	bounds: 925, 4, 42, 50
+rush2 leg L
+	bounds: 925, 4, 42, 50
+idle leg R
+	bounds: 391, 580, 42, 50
+kick leg R
+	bounds: 391, 580, 42, 50
+rush1 leg R
+	bounds: 391, 580, 42, 50
+rush2 leg R
+	bounds: 391, 580, 42, 50
+idle wing L
+	bounds: 667, 11, 41, 82
+idle wing R
+	bounds: 903, 630, 41, 82
+kick body
+	bounds: 352, 322, 95, 145
+	rotate: 90
+kick effect
+	bounds: 205, 419, 255, 155
+	offsets: 1, 0, 257, 156
+kick head
+	bounds: 577, 190, 103, 165
+	offsets: 0, 0, 104, 165
+	rotate: 270
+kick leg L
+	bounds: 907, 714, 45, 86
+	offsets: 0, 0, 46, 86
+kick leg L FX
+	bounds: 764, 788, 44, 101
+	offsets: 1, 1, 46, 106
+	rotate: 90
+kick wing L
+	bounds: 474, 24, 107, 114
+	rotate: 90
+kick wing R
+	bounds: 391, 89, 101, 95
+	rotate: 270
+kick2 body
+	bounds: 205, 322, 95, 145
+	rotate: 90
+kick2 effect
+	bounds: 805, 304, 121, 131
+	offsets: 1, 1, 125, 133
+	rotate: 90
+kick2 effect2
+	bounds: 805, 427, 123, 131
+	offsets: 1, 1, 125, 133
+kick2 head
+	bounds: 147, 218, 103, 164
+	offsets: 0, 1, 104, 165
+	rotate: 270
+kick2 leg L
+	bounds: 576, 25, 60, 89
+	rotate: 90
+kick2 leg L fx
+	bounds: 839, 661, 62, 99
+	offsets: 1, 1, 65, 107
+kick2 leg R
+	bounds: 794, 40, 60, 88
+	offsets: 0, 0, 60, 89
+	rotate: 90
+kick2 leg R fx
+	bounds: 837, 560, 62, 99
+	offsets: 2, 1, 65, 107
+kick2 wing L
+	bounds: 790, 101, 102, 150
+	rotate: 90
+kick2 wing R
+	bounds: 243, 123, 101, 150
+	offsets: 0, 0, 102, 150
+	rotate: 270
+rush1 effect
+	bounds: 462, 422, 210, 136
+	offsets: 2, 0, 213, 139
+rush1 head
+	bounds: 291, 183, 103, 165
+	offsets: 0, 0, 104, 165
+	rotate: 270
+rush1 wing L
+	bounds: 589, 769, 63, 95
+	rotate: 90
+rush1 wing R
+	bounds: 436, 116, 119, 142
+	rotate: 270
+rush2 effect
+	bounds: 674, 366, 192, 129
+	offsets: 1, 0, 194, 130
+	rotate: 90
+rush2 head
+	bounds: 409, 223, 100, 187
+	rotate: 90
+rush2 wing L
+	bounds: 2, 26, 82, 96
+	rotate: 180
+rush2 wing R
+	bounds: 884, 37, 83, 96
+spin effect
+	bounds: 2, 376, 201, 198
+	offsets: 1, 1, 203, 200
+spin head
+	bounds: 2, 177, 103, 164
+	offsets: 0, 1, 104, 165
+	rotate: 270
+spin wing L
+	bounds: 580, 87, 112, 112
+	rotate: 180
+spin wing R
+	bounds: 195, 54, 88, 120
+	offsets: 1, 0, 90, 121
+	rotate: 90

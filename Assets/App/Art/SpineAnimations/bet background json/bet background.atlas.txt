@@ -1,0 +1,10 @@
+bet background.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+BG
+	bounds: 417, 457, 280, 511
+RF
+	bounds: 2, 2, 413, 966
+	offsets: 0, 0, 414, 967

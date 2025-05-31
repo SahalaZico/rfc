@@ -1,0 +1,119 @@
+{
+"skeleton": {
+	"hash": "r0jzsJfxPaA",
+	"spine": "4.1.24",
+	"x": -492.04,
+	"y": -491.74,
+	"width": 984,
+	"height": 984,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/Rooster BR/Roulette"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "Light", "parent": "root" },
+	{ "name": "Light2", "parent": "root" }
+],
+"slots": [
+	{ "name": "Roulette", "bone": "root", "attachment": "Roulette" },
+	{ "name": "Light", "bone": "Light", "color": "ff0000a6", "attachment": "Light", "blend": "additive" },
+	{ "name": "Light2", "bone": "Light2", "color": "ff2b2b52", "attachment": "Light", "blend": "additive" },
+	{ "name": "Light dim 2", "bone": "root", "color": "ffffff00", "attachment": "Light dim 2", "blend": "additive" },
+	{ "name": "Light dim 1", "bone": "root", "color": "ffffff00", "attachment": "Light dim 1", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Light": {
+				"Light": { "x": 1.92, "y": 761.52, "scaleX": 4, "scaleY": 4, "width": 45, "height": 100 }
+			},
+			"Light2": {
+				"Light": { "x": 1.92, "y": 761.52, "scaleX": 4, "scaleY": 4, "width": 45, "height": 100 }
+			},
+			"Light dim 1": {
+				"Light dim 1": { "width": 486, "height": 481 }
+			},
+			"Light dim 2": {
+				"Light dim 2": {
+					"x": 2.79,
+					"y": -0.03,
+					"scaleX": 4,
+					"scaleY": 4,
+					"rotation": -0.37,
+					"width": 476,
+					"height": 464
+				}
+			},
+			"Roulette": {
+				"Roulette": { "x": -0.08, "y": 0.52, "scaleX": 2, "scaleY": 2, "width": 984, "height": 984 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"Light": {
+				"rgba": [
+					{ "color": "ffffff79", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffff79" },
+					{ "time": 0.9, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffff86", "curve": "stepped" },
+					{ "time": 1.9, "color": "ffffff86" },
+					{ "time": 2.2, "color": "ffffff00" }
+				]
+			},
+			"Light2": {
+				"rgba": [
+					{ "color": "ff14146d" },
+					{ "time": 0.7667, "color": "ffffff6c" },
+					{ "time": 0.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ffffff00" },
+					{ "time": 2.1, "color": "ffffff6c" },
+					{ "time": 2.2, "color": "ffffff00" }
+				]
+			},
+			"Light dim 2": {
+				"rgba": [
+					{ "time": 2.3667, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ff8989a8", "curve": "stepped" },
+					{ "time": 2.6, "color": "ff8989a8" },
+					{ "time": 2.8667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3.4, "color": "ffffff00" },
+					{ "time": 3.5333, "color": "ff8989a8", "curve": "stepped" },
+					{ "time": 3.6333, "color": "ff8989a8" },
+					{ "time": 3.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 5.2667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Light": {
+				"rotate": [
+					{},
+					{ "time": 0.4333, "value": -178.66 },
+					{ "time": 0.8, "value": -350.72, "curve": "stepped" },
+					{ "time": 0.9, "value": -350.72 },
+					{ "time": 1.2333 },
+					{ "time": 1.7, "value": -178.66 },
+					{ "time": 2.1667, "value": -350.72 }
+				]
+			},
+			"Light2": {
+				"rotate": [
+					{ "value": 10.07 },
+					{ "time": 0.4, "value": -147.89 },
+					{ "time": 0.6667, "value": -268.74 },
+					{ "time": 0.8667, "value": -343.66 },
+					{ "time": 0.9, "value": -340.44 },
+					{ "time": 1.2333, "value": 10.07 },
+					{ "time": 1.6667, "value": -144.74 },
+					{ "time": 2.1667, "value": -340.44 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,39 @@
+hit effect.png
+	size: 1024, 256
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+clash1
+	bounds: 678, 48, 85, 115
+	offsets: 8, 8, 101, 131
+clash2
+	bounds: 372, 9, 125, 154
+	offsets: 15, 15, 155, 183
+claw1
+	bounds: 899, 65, 75, 48
+	offsets: 7, 7, 90, 63
+	rotate: 90
+claw2
+	bounds: 831, 65, 98, 66
+	offsets: 8, 6, 114, 79
+	rotate: 90
+claw3
+	bounds: 831, 2, 61, 96
+	offsets: 8, 8, 75, 112
+	rotate: 90
+claw4
+	bounds: 765, 48, 64, 115
+	offsets: 8, 8, 77, 131
+feather1
+	bounds: 217, 8, 153, 155
+	offsets: 5, 5, 163, 169
+feather2
+	bounds: 2, 3, 213, 160
+	offsets: 5, 6, 223, 171
+spark1
+	bounds: 588, 48, 115, 88
+	offsets: 2, 3, 119, 94
+	rotate: 90
+spark2
+	bounds: 499, 36, 87, 127
+	offsets: 3, 2, 93, 132

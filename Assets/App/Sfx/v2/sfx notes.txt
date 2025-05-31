@@ -1,0 +1,14 @@
+saat ayam beradu akan memunculkan animasi special effect.Bersamaan dgn animasi tsb, 
+secara random juga muncul salah satu dari 3 sound effect ini:
+-chicken flapping
+-chicken punch
+-chicken clucking
+
+
+
+Chicken electrocuted digunakan saat salah satu ayam jatuh ke roulette dan tersetrum
+
+start bell digunakan saat pertandingan di ring dimulai (setelah jumbotron fight muncul)
+end bell digunakan saat pertandingan di ring selesai (saat jumbotron result muncul)
+money reward digunakan saat pemain mendapat uang di result screen
+no reward digunakan saat pemain mendapat 0 uang di result screen

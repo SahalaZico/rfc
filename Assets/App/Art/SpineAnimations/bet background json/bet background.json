@@ -1,0 +1,93 @@
+{
+"skeleton": {
+	"hash": "tW7NMQP1tRs",
+	"spine": "4.1.24",
+	"x": -563.5,
+	"y": -1043,
+	"width": 1118,
+	"height": 2043.5,
+	"images": "./images/",
+	"audio": "F:/SLENCE/Work/Rooster BR/RF BG"
+},
+"bones": [
+	{ "name": "root", "x": -6, "y": 18, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "RF", "parent": "root", "x": 139, "y": 64 },
+	{ "name": "RF2", "parent": "root", "x": 139, "y": 64 }
+],
+"slots": [
+	{ "name": "clip", "bone": "root", "attachment": "clip" },
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "RF", "bone": "RF", "attachment": "RF" },
+	{ "name": "RF2", "bone": "RF2", "attachment": "RF" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"BG": {
+				"BG": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1121, -2122, -1115, -2122, -1115, 1965, 1121, 1965 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 559,
+					"height": 1022
+				}
+			},
+			"clip": {
+				"clip": {
+					"type": "clipping",
+					"end": "clip",
+					"vertexCount": 4,
+					"vertices": [ 1121, -2122, -1115, -2122, -1115, 1965, 1121, 1965 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"RF": {
+				"RF": { "x": 39, "y": -319, "scaleX": 4, "scaleY": 4, "width": 828, "height": 1933 }
+			},
+			"RF2": {
+				"RF": { "x": 39, "y": -319, "scaleX": 4, "scaleY": 4, "width": 828, "height": 1933 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"RF": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 1.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 4.0333, "color": "ffffffff" },
+					{ "time": 6, "color": "ffffff00" }
+				]
+			},
+			"RF2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.9667, "color": "ffffffff" },
+					{ "time": 6, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"RF": {
+				"translate": [
+					{},
+					{ "time": 6, "x": 2228.32, "y": 391.36 }
+				]
+			},
+			"RF2": {
+				"translate": [
+					{ "x": -3348, "y": -336 },
+					{ "time": 6, "x": -1111.94, "y": 22.33 }
+				]
+			}
+		}
+	}
+}
+}

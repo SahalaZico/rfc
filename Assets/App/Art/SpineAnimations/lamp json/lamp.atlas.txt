@@ -1,0 +1,14 @@
+lamp.png
+	size: 512, 128
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+lamp shine1
+	bounds: 126, 19, 116, 63
+	offsets: 23, 4, 148, 73
+lamp shine2
+	bounds: 2, 19, 122, 63
+	offsets: 9, 2, 152, 73
+ring lamp 1
+	bounds: 244, 2, 80, 80
+	offsets: 2, 2, 83, 83
