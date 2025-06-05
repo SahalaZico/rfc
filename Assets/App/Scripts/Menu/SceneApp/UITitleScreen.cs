@@ -14,7 +14,7 @@ public class UITitleScreen : UIPage
 
     public void OnActiveAccessMenu(bool state)
     {
-        //actionContainer.gameObject.SetActive(state);
+        actionContainer.gameObject.SetActive(state);
     }
 
     public void OpenToGame()
@@ -76,7 +76,6 @@ public class UITitleScreen : UIPage
                 if (entry.Animation.Name == "start")
                 {
                     titleScreenSpine.AnimationState.SetAnimation(0, "idle", true);
-                    actionContainer.gameObject.SetActive(true);
                 }
             };
         }
