@@ -1,0 +1,92 @@
+Coin Burst.png
+	size: 2048, 512
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+CoinBorder
+	bounds: 2, 69, 45, 380
+	rotate: 90
+Flare_03_bl
+	bounds: 911, 55, 154, 154
+Glow_Neo
+	bounds: 437, 141, 256, 256
+RFC logo
+	bounds: 2, 116, 433, 281
+	offsets: 28, 0, 497, 292
+Spin_noBorder
+	bounds: 695, 160, 236, 237
+coin/11.png/Flip-In2_00
+	bounds: 1472, 118, 119, 119
+	offsets: 26, 18, 172, 157
+coin/11.png/Flip-In2_01
+	bounds: 1421, 18, 119, 98
+	offsets: 26, 30, 172, 157
+coin/11.png/Flip-In2_02
+	bounds: 1542, 40, 119, 76
+	offsets: 26, 42, 172, 157
+coin/11.png/Flip-In2_03
+	bounds: 2, 11, 119, 56
+	offsets: 26, 53, 172, 157
+coin/11.png/Flip-In2_04
+	bounds: 677, 8, 119, 34
+	offsets: 26, 65, 172, 157
+coin/11.png/Flip-In2_05
+	bounds: 486, 15, 119, 13
+	offsets: 26, 76, 172, 157
+coin/11.png/Flip-In2_06
+	bounds: 365, 2, 119, 26
+	offsets: 26, 65, 172, 157
+coin/11.png/Flip-In2_07
+	bounds: 244, 16, 119, 51
+	offsets: 26, 52, 172, 157
+coin/11.png/Flip-In2_08
+	bounds: 1067, 6, 119, 75
+	offsets: 26, 39, 172, 157
+coin/11.png/Flip-In2_09
+	bounds: 556, 41, 119, 98
+	offsets: 26, 27, 172, 157
+coin/11.png/Flip-In2_10
+	bounds: 1422, 239, 143, 135
+	offsets: 17, 14, 172, 157
+	rotate: 90
+coin/11.png/Flip-In2_11
+	bounds: 1276, 17, 119, 97
+	offsets: 26, 32, 172, 157
+coin/11.png/Flip-In2_12
+	bounds: 1559, 239, 119, 76
+	offsets: 26, 43, 172, 157
+	rotate: 90
+coin/11.png/Flip-In2_13
+	bounds: 123, 13, 119, 54
+	offsets: 26, 54, 172, 157
+coin/11.png/Flip-In2_14
+	bounds: 1542, 5, 119, 33
+	offsets: 26, 65, 172, 157
+coin/11.png/Flip-In2_15
+	bounds: 1188, 3, 119, 12
+	offsets: 26, 76, 172, 157
+coin/11.png/Flip-In2_16
+	bounds: 486, 2, 119, 11
+	offsets: 26, 74, 172, 157
+coin/11.png/Flip-In2_17
+	bounds: 898, 8, 119, 45
+	offsets: 26, 56, 172, 157
+coin/11.png/Flip-In2_18
+	bounds: 816, 40, 119, 80
+	offsets: 26, 38, 172, 157
+	rotate: 90
+coin/11.png/Flip-In2_19
+	bounds: 695, 44, 119, 115
+	offsets: 26, 19, 172, 157
+dust spark
+	bounds: 437, 30, 109, 117
+	rotate: 90
+light_yellow
+	bounds: 1120, 83, 154, 154
+light_yellow2
+	bounds: 932, 211, 186, 186
+shine white
+	bounds: 1120, 239, 158, 158
+shine yellow
+	bounds: 1276, 115, 159, 194
+	rotate: 90

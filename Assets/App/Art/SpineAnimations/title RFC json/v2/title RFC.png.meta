@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: bee1beadde10a42489f24b0320e5092a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5028517747765426227
+    second: title RFC_0
+  - first:
+      213: 5637658744425323754
+    second: title RFC_1
+  - first:
+      213: -6891047247094475945
+    second: title RFC_2
+  - first:
+      213: -5842347714059385215
+    second: title RFC_3
+  - first:
+      213: 4413990880316580734
+    second: title RFC_4
+  - first:
+      213: 3836046771225354619
+    second: title RFC_5
+  - first:
+      213: 1299853245586017645
+    second: title RFC_6
+  - first:
+      213: -6715734106184970612
+    second: title RFC_7
+  - first:
+      213: -9098208590686372472
+    second: title RFC_8
+  - first:
+      213: 9134322094113270416
+    second: title RFC_9
+  - first:
+      213: -3942605497371386417
+    second: title RFC_10
+  - first:
+      213: -4886758423251594173
+    second: title RFC_11
+  - first:
+      213: 5631950286050094146
+    second: title RFC_12
+  - first:
+      213: -6069267288205681815
+    second: title RFC_13
+  - first:
+      213: 5876559859119486373
+    second: title RFC_14
+  - first:
+      213: -6360676015942325591
+    second: title RFC_15
+  - first:
+      213: -7031384911585703799
+    second: title RFC_16
+  - first:
+      213: -6105149641996737626
+    second: title RFC_17
+  - first:
+      213: -765571225036546077
+    second: title RFC_18
+  - first:
+      213: 2238162427740576701
+    second: title RFC_19
+  - first:
+      213: 7349043278536584790
+    second: title RFC_20
+  - first:
+      213: 2932671250090929835
+    second: title RFC_21
+  - first:
+      213: 7795642858024551661
+    second: title RFC_22
+  - first:
+      213: -5483100662175574198
+    second: title RFC_23
+  - first:
+      213: -5974338710153821593
+    second: title RFC_24
+  - first:
+      213: 572861465225382964
+    second: title RFC_25
+  - first:
+      213: -7767504452549874685
+    second: title RFC_26
+  - first:
+      213: 1588058013263921999
+    second: title RFC_27
+  - first:
+      213: 7623592822146005528
+    second: title RFC_28
+  - first:
+      213: 8565465775419436855
+    second: title RFC_29
+  - first:
+      213: 1989024338430772346
+    second: title RFC_30
+  - first:
+      213: 9130467926123792045
+    second: title RFC_31
+  - first:
+      213: -1155924393439612614
+    second: title RFC_32
+  - first:
+      213: 8911778031756396205
+    second: title RFC_33
+  - first:
+      213: -4250890368645958419
+    second: title RFC_34
+  - first:
+      213: -6444472682230116675
+    second: title RFC_35
+  - first:
+      213: 7982730240032564103
+    second: title RFC_36
+  - first:
+      213: 6871512299617151328
+    second: title RFC_37
+  - first:
+      213: -6137328263168674774
+    second: title RFC_38
+  - first:
+      213: 8896943229513152907
+    second: title RFC_39
+  - first:
+      213: -6516153659159017491
+    second: title RFC_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 80
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 29
+    textureCompression: 1
+    compressionQuality: 80
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: title RFC_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1495
+        width: 738
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3383e46df32e8c540800000000000000
+      internalID: 5028517747765426227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_1
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1751
+        width: 513
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec985a22ccfc3e40800000000000000
+      internalID: 5637658744425323754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_2
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 1698
+        width: 168
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75310820a051e50a0800000000000000
+      internalID: -6891047247094475945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_3
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1476
+        width: 338
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186cc2945bfcbeea0800000000000000
+      internalID: -5842347714059385215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_4
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1844
+        width: 148
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73651fb155a14d30800000000000000
+      internalID: 4413990880316580734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_5
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1910
+        width: 88
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71eba4d6306c3530800000000000000
+      internalID: 3836046771225354619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_6
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1758
+        width: 207
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d0b43d3a10a0210800000000000000
+      internalID: 1299853245586017645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_7
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 1891
+        width: 87
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e8ed2796becc2a0800000000000000
+      internalID: -6715734106184970612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_8
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1495
+        width: 205
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d3bbbbd7bacb180800000000000000
+      internalID: -9098208590686372472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_9
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1705
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09aaf938c81a3ce70800000000000000
+      internalID: 9134322094113270416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_10
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1589
+        width: 99
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd1daf503d0949c0800000000000000
+      internalID: -3942605497371386417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_11
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1589
+        width: 104
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344d0feea1fbe2cb0800000000000000
+      internalID: -4886758423251594173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_12
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1637
+        width: 130
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ceca022f4b82e40800000000000000
+      internalID: 5631950286050094146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1046
+        width: 535
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b1a97ce81a5cba0800000000000000
+      internalID: -6069267288205681815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_14
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1039
+        width: 551
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5f2287e0cbd8150800000000000000
+      internalID: 5876559859119486373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_15
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1011
+        width: 398
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa29622dd65ab7a0800000000000000
+      internalID: -6360676015942325591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_16
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1103
+        width: 285
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98884e14da08b6e90800000000000000
+      internalID: -7031384911585703799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_17
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 1117
+        width: 215
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a36e204fb6264ba0800000000000000
+      internalID: -6105149641996737626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_18
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1306
+        width: 214
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef9f69e6052065f0800000000000000
+      internalID: -765571225036546077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_19
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 1274
+        width: 188
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb5a17aedc8f0f10800000000000000
+      internalID: 2238162427740576701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_20
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1181
+        width: 161
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e2528cceb0df560800000000000000
+      internalID: 7349043278536584790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 21
+        width: 655
+        height: 1025
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baeaba8c6f0f2b820800000000000000
+      internalID: 2932671250090929835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_22
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 767
+        width: 230
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de44d5450efaf2c60800000000000000
+      internalID: 7795642858024551661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_23
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 466
+        width: 379
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47d05b9ffc18e3b0800000000000000
+      internalID: -5483100662175574198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_24
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 762
+        width: 372
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7628a65b892e61da0800000000000000
+      internalID: -5974338710153821593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_25
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 843
+        width: 312
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cc44ca77633f700800000000000000
+      internalID: 572861465225382964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_26
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 934
+        width: 139
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cef7abad7443490800000000000000
+      internalID: -7767504452549874685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_27
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 556
+        width: 203
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f430f43695ae90610800000000000000
+      internalID: 1588058013263921999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_28
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 439
+        width: 315
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81afa3cb7417cc960800000000000000
+      internalID: 7623592822146005528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_29
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 635
+        width: 226
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f24afadb5aed670800000000000000
+      internalID: 8565465775419436855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_30
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 218
+        width: 234
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74c5c5f81f6a9b10800000000000000
+      internalID: 1989024338430772346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_31
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 660
+        width: 223
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6c4b91430f5be70800000000000000
+      internalID: 9130467926123792045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_32
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 422
+        width: 113
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31b2d573e455ffe0800000000000000
+      internalID: -1155924393439612614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_33
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 21
+        width: 312
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da648fb37eefcab70800000000000000
+      internalID: 8911778031756396205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_34
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 343
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de47abd5bbdc105c0800000000000000
+      internalID: -4250890368645958419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_35
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 22
+        width: 360
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe07f26d32a096a0800000000000000
+      internalID: -6444472682230116675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_36
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 326
+        width: 165
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783e8e6ebda58ce60800000000000000
+      internalID: 7982730240032564103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_37
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 289
+        width: 302
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069686897048c5f50800000000000000
+      internalID: 6871512299617151328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_38
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 21
+        width: 268
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24bddb2674d3daa0800000000000000
+      internalID: -6137328263168674774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_39
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 21
+        width: 234
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89b2fdaaba487b70800000000000000
+      internalID: 8896943229513152907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title RFC_40
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 21
+        width: 141
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de707f365c8f195a0800000000000000
+      internalID: -6516153659159017491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      title RFC_0: 5028517747765426227
+      title RFC_1: 5637658744425323754
+      title RFC_10: -3942605497371386417
+      title RFC_11: -4886758423251594173
+      title RFC_12: 5631950286050094146
+      title RFC_13: -6069267288205681815
+      title RFC_14: 5876559859119486373
+      title RFC_15: -6360676015942325591
+      title RFC_16: -7031384911585703799
+      title RFC_17: -6105149641996737626
+      title RFC_18: -765571225036546077
+      title RFC_19: 2238162427740576701
+      title RFC_2: -6891047247094475945
+      title RFC_20: 7349043278536584790
+      title RFC_21: 2932671250090929835
+      title RFC_22: 7795642858024551661
+      title RFC_23: -5483100662175574198
+      title RFC_24: -5974338710153821593
+      title RFC_25: 572861465225382964
+      title RFC_26: -7767504452549874685
+      title RFC_27: 1588058013263921999
+      title RFC_28: 7623592822146005528
+      title RFC_29: 8565465775419436855
+      title RFC_3: -5842347714059385215
+      title RFC_30: 1989024338430772346
+      title RFC_31: 9130467926123792045
+      title RFC_32: -1155924393439612614
+      title RFC_33: 8911778031756396205
+      title RFC_34: -4250890368645958419
+      title RFC_35: -6444472682230116675
+      title RFC_36: 7982730240032564103
+      title RFC_37: 6871512299617151328
+      title RFC_38: -6137328263168674774
+      title RFC_39: 8896943229513152907
+      title RFC_4: 4413990880316580734
+      title RFC_40: -6516153659159017491
+      title RFC_5: 3836046771225354619
+      title RFC_6: 1299853245586017645
+      title RFC_7: -6715734106184970612
+      title RFC_8: -9098208590686372472
+      title RFC_9: 9134322094113270416
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

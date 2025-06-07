@@ -1,0 +1,225 @@
+title RFC.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+BG
+	bounds: 2, 1003, 653, 1023
+	offsets: 4, 0, 657, 1023
+BG Base
+	bounds: 699, 16, 280, 511
+	rotate: 90
+Glow_Neo
+	bounds: 1541, 1187, 224, 225
+	offsets: 16, 15, 256, 256
+feather
+	bounds: 2, 366, 281, 186
+fire
+	bounds: 1597, 19, 302, 439
+fire X
+	bounds: 657, 1493, 310, 533
+fx/fx_9
+	bounds: 1831, 189, 128, 221
+light_10
+	bounds: 1349, 1760, 266, 266
+	offsets: 59, 59, 384, 384
+rooster1 beak
+	bounds: 1851, 1837, 189, 139
+	offsets: 3, 0, 192, 139
+	rotate: 90
+rooster1 body
+	bounds: 969, 1607, 379, 419
+	offsets: 14, 4, 407, 425
+rooster1 foot L
+	bounds: 1326, 626, 283, 318
+rooster1 head
+	bounds: 1210, 1287, 321, 313
+	rotate: 90
+rooster1 head comb
+	bounds: 1623, 468, 273, 213
+	rotate: 90
+rooster1 leg L
+	bounds: 1341, 1610, 163, 111
+	offsets: 0, 0, 163, 112
+rooster1 leg R
+	bounds: 1760, 1388, 232, 441
+rooster1 top comb
+	bounds: 1595, 132, 208, 157
+rooster1 top leg L
+	bounds: 1611, 743, 187, 213
+	offsets: 0, 1, 187, 214
+	rotate: 90
+rooster1 top leg R
+	bounds: 657, 1282, 201, 209
+rooster1 waist
+	bounds: 2, 554, 533, 447
+rooster1 wing L
+	bounds: 2, 60, 492, 736
+	rotate: 90
+rooster1 wing R
+	bounds: 1299, 2, 337, 570
+	rotate: 180
+rooster2 arm L
+	bounds: 537, 356, 549, 652
+rooster2 arm R
+	bounds: 1514, 1413, 300, 345
+rooster2 body
+	bounds: 1198, 945, 340, 371
+	rotate: 270
+rooster2 head
+	bounds: 830, 977, 378, 604
+rooster2 leg L
+	bounds: 1029, 351, 396, 685
+rooster2 leg R
+	bounds: 1617, 1842, 232, 184
+rooster3 body
+	bounds: 1581, 932, 310, 272
+rooster3 head
+	bounds: 1802, 549, 186, 225
+	rotate: 180
+rooster3 leg R
+	bounds: 1900, 1389, 236, 112
+	rotate: 270
+rooster3 wing L
+	bounds: 537, 480, 255, 260
+	offsets: 213, 139, 468, 399
+rooster3 wing R
+	bounds: 1212, 90, 166, 259
+rooster4 body
+	bounds: 1767, 1225, 221, 162
+	offsets: 0, 1, 221, 163
+rooster4 head
+	bounds: 1038, 299, 203, 253
+rooster4 leg L
+	bounds: 1884, 642, 224, 160
+	rotate: 270
+rooster4 leg R
+	bounds: 1490, 6, 147, 197
+	offsets: 0, 0, 147, 198
+rooster4 wing L
+	bounds: 1824, 829, 137, 284
+rooster4 wing R
+	bounds: 657, 1006, 229, 274
+
+title RFC_2.png
+	size: 2048, 1024
+	filter: Linear, Linear
+	pma: true
+	scale: 0.5
+fx/fx_0
+	bounds: 170, 522, 128, 221
+fx/fx_1
+	bounds: 300, 522, 128, 221
+fx/fx_10
+	bounds: 430, 522, 128, 221
+fx/fx_11
+	bounds: 560, 522, 128, 221
+fx/fx_12
+	bounds: 690, 522, 128, 221
+fx/fx_13
+	bounds: 820, 522, 128, 221
+fx/fx_14
+	bounds: 950, 522, 128, 221
+fx/fx_15
+	bounds: 1080, 522, 128, 221
+fx/fx_16
+	bounds: 1210, 522, 128, 221
+fx/fx_17
+	bounds: 1340, 522, 128, 221
+fx/fx_18
+	bounds: 1470, 522, 128, 221
+fx/fx_19
+	bounds: 1600, 522, 128, 221
+fx/fx_2
+	bounds: 1730, 522, 128, 221
+fx/fx_20
+	bounds: 1860, 522, 128, 221
+fx/fx_21
+	bounds: 2, 392, 128, 221
+	rotate: 90
+fx/fx_22
+	bounds: 225, 392, 128, 221
+	rotate: 90
+fx/fx_23
+	bounds: 448, 392, 128, 221
+	rotate: 90
+fx/fx_24
+	bounds: 671, 392, 128, 221
+	rotate: 90
+fx/fx_25
+	bounds: 894, 392, 128, 221
+	rotate: 90
+fx/fx_26
+	bounds: 1117, 392, 128, 221
+	rotate: 90
+fx/fx_27
+	bounds: 1340, 392, 128, 221
+	rotate: 90
+fx/fx_28
+	bounds: 1563, 392, 128, 221
+	rotate: 90
+fx/fx_29
+	bounds: 1786, 392, 128, 221
+	rotate: 90
+fx/fx_3
+	bounds: 2, 262, 128, 221
+	rotate: 90
+fx/fx_30
+	bounds: 225, 262, 128, 221
+	rotate: 90
+fx/fx_31
+	bounds: 448, 262, 128, 221
+	rotate: 90
+fx/fx_32
+	bounds: 671, 262, 128, 221
+	rotate: 90
+fx/fx_33
+	bounds: 894, 262, 128, 221
+	rotate: 90
+fx/fx_34
+	bounds: 1117, 262, 128, 221
+	rotate: 90
+fx/fx_35
+	bounds: 1340, 262, 128, 221
+	rotate: 90
+fx/fx_36
+	bounds: 1563, 262, 128, 221
+	rotate: 90
+fx/fx_37
+	bounds: 1786, 262, 128, 221
+	rotate: 90
+fx/fx_38
+	bounds: 2, 132, 128, 221
+	rotate: 90
+fx/fx_39
+	bounds: 225, 132, 128, 221
+	rotate: 90
+fx/fx_4
+	bounds: 448, 132, 128, 221
+	rotate: 90
+fx/fx_40
+	bounds: 671, 132, 128, 221
+	rotate: 90
+fx/fx_41
+	bounds: 894, 132, 128, 221
+	rotate: 90
+fx/fx_42
+	bounds: 1117, 132, 128, 221
+	rotate: 90
+fx/fx_43
+	bounds: 1340, 132, 128, 221
+	rotate: 90
+fx/fx_5
+	bounds: 1563, 132, 128, 221
+	rotate: 90
+fx/fx_6
+	bounds: 1786, 132, 128, 221
+	rotate: 90
+fx/fx_7
+	bounds: 2, 2, 128, 221
+	rotate: 90
+fx/fx_8
+	bounds: 225, 2, 128, 221
+	rotate: 90
+rooster3 leg L
+	bounds: 2, 551, 166, 192

@@ -4,7 +4,9 @@
       "labels": {
         "error_title": "Error",
         "ok": "OK",
-        "start_game": "Start Game",
+        "start": "Start",
+        "rebet": "Rebet",
+        "clear": "Clear",
         "how_to_play": "How to Play",
         "special_mode": "Play Special Mode!",
         "special_mode_title": "Special Mode",
@@ -59,7 +61,9 @@
       "labels": {
         "error_title": "Kesalahan",
         "ok": "OKE",
-        "start_game": "Mulai Permainan",
+        "start": "Mulai",
+        "rebet": "Rebet",
+        "clear": "Bersih",
         "how_to_play": "Cara Bermain",
         "special_mode": "Bermain Mode Spesial!",
         "special_mode_title": "Mode Spesial",
