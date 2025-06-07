@@ -121,7 +121,7 @@ public class UIGameplay : UIPage
                 totalBet += (float) fetchCell.CacheBet.amount;
             }
 
-            textBetAmount.text = "IDR " + StringUtility.ConvertDoubleToString(totalBet);
+            textBetAmount.text = StringUtility.ConvertDoubleToStringCurrency(totalBet);
         }
 
         public void SetHighlight(bool state, int output)
@@ -156,19 +156,32 @@ public class UIGameplay : UIPage
 
     [SerializeField] protected AudioSource sfxRingBell = null;
 
-    //[SerializeField] protected RectTransform rectJumbotron = null;
     [SerializeField] protected SkeletonGraphic skeleJumbotron = null;
     [SerializeField] protected SkeletonGraphic skeleCoinBurst = null;
     [SerializeField] protected CanvasGroup bgBet = null;
     [SerializeField] protected Transform rouletteWheel = null;
-    //[SerializeField] protected GameObject jbrFight = null;
-    //[SerializeField] protected GameObject jbrBet = null;
-    //[SerializeField] protected GameObject jbrResult = null;
     [SerializeField] protected TMP_Text textResult = null;
     [SerializeField] protected Transform transTextReward = null;
     [SerializeField] protected TMP_Text textReward = null;
     [SerializeField] protected Button btnPlay = null;
 
+    [Header("Player Info")]
+    [SerializeField] protected TMP_Text textBalance = null;
+    protected UserDataResponse cacheUser = null;
+    public UserDataResponse CacheUser
+    {
+        get
+        {
+            return cacheUser;
+        }
+        set
+        {
+            cacheUser = value;
+
+            textBalance.text = StringUtility.ConvertDoubleToStringCurrency(cacheUser.data.player.player_balance);
+        }
+    }
+    
     [Header("Chip Props")]
     [SerializeField] protected CanvasGroup chipMenuGrp = null;
     [SerializeField] protected List<Sprite> skinChips = new List<Sprite>();
@@ -231,6 +244,11 @@ public class UIGameplay : UIPage
     }
 
     Sequence currSequence = null;
+
+    public void OnReturnAuth(UserDataResponse response)
+    {
+        CacheUser = response;
+    }
 
     public void SetEnableChipMenuGrp(bool state)
     {
@@ -307,7 +325,6 @@ public class UIGameplay : UIPage
             if (currSequence.active)
                 currSequence.Kill();
         }
-        //jbrBet.SetActive(true);
         skeleJumbotron.gameObject.SetActive(true);
         currSequence = DOTween.Sequence();
         currSequence.AppendCallback(() =>
@@ -317,10 +334,8 @@ public class UIGameplay : UIPage
         });
         currSequence.Join(bgBet.DOFade(1f, 0.7f));
         currSequence.AppendInterval(0.25f);
-        //currSequence.Append(rectJumbotron.DOAnchorPos(new Vector2(0f, 1300f), 0.25f));
         currSequence.AppendCallback(() => {
             BattleManager.Instance.ResetBattle();
-            //jbrBet.SetActive(false);
 
             if (btnPlay != null)
                 btnPlay.gameObject.SetActive(true);
@@ -334,25 +349,21 @@ public class UIGameplay : UIPage
             if (currSequence.active)
                 currSequence.Kill();
         }
-        //jbrResult.SetActive(true);
         textResult.gameObject.SetActive(true);
         int targetGoal = BattleManager.Instance.TargetGoal;
         SpriteRenderer markRenderer = BattleManager.Instance.TargetSpriteGoal;
         textResult.text = BattleManager.Instance.TargetGoal.ToString();
         currSequence = DOTween.Sequence();
         currSequence.Append(markRenderer.DOFade(1f, 0.5f));
-        currSequence.Append(markRenderer.DOFade(0f, 0.5f));
-        currSequence.Append(markRenderer.DOFade(1f, 0.5f));
-        currSequence.Append(markRenderer.DOFade(0f, 0.5f));
-        currSequence.Append(markRenderer.DOFade(1f, 0.5f));
-        currSequence.Append(markRenderer.DOFade(0f, 0.5f));
-        //currSequence.Append(rectJumbotron.DOAnchorPos(new Vector2(0f, 0f), 0.3f));
-        currSequence.AppendCallback(() =>
+        currSequence.Append(markRenderer.DOFade(0f, 0.5f).OnComplete(() =>
         {
             skeleJumbotron.AnimationState.TimeScale = 1.5f;
             skeleJumbotron.AnimationState.SetAnimation(0, "Result", false);
-        });
-        currSequence.AppendInterval(2f);
+        }));
+        currSequence.Append(markRenderer.DOFade(1f, 0.5f));
+        currSequence.Append(markRenderer.DOFade(0f, 0.5f));
+        currSequence.Append(markRenderer.DOFade(1f, 0.5f));
+        currSequence.Append(markRenderer.DOFade(0f, 0.5f));
         currSequence.Append(table.CanvaGroup.DOFade(1f, 0.5f));
         currSequence.AppendCallback(() => {
             table.SetHighlight(true, targetGoal);
@@ -366,10 +377,8 @@ public class UIGameplay : UIPage
             skeleCoinBurst.AnimationState.SetAnimation(0, "Loop", true);
         });
         currSequence.AppendInterval(2f);
-        //currSequence.Append(rectJumbotron.DOAnchorPos(new Vector2(0f, 1300f), 0.25f));
         currSequence.Append(transTextReward.DOScale(0f, 0.35f));
         currSequence.AppendCallback(() => {
-            //jbrResult.SetActive(false);
             textResult.gameObject.SetActive(false);
             skeleCoinBurst.AnimationState.SetAnimation(0, "Loop", false);
             OnFinishReached();
@@ -383,14 +392,12 @@ public class UIGameplay : UIPage
             if (currSequence.active)
                 currSequence.Kill();
         }
-        //jbrBet.SetActive(true);
         currSequence = DOTween.Sequence();
         currSequence.AppendInterval(1f);
         currSequence.AppendCallback(() => {
             table.SetHighlight(false, 0);
             ClearAllChip();
         });
-        //currSequence.Append(rectJumbotron.DOAnchorPos(new Vector2(0f, 0f), 0.3f));
         currSequence.AppendCallback(() =>
         {
             skeleJumbotron.AnimationState.TimeScale = 2f;
@@ -400,10 +407,8 @@ public class UIGameplay : UIPage
         currSequence.Join(table.CanvaGroup.DOFade(1f, 0.3f));
         currSequence.Join(chipMenuGrp.DOFade(1f, 0.3f));
         currSequence.AppendInterval(0.25f);
-        //currSequence.Append(rectJumbotron.DOAnchorPos(new Vector2(0f, 1300f), 0.25f));
         currSequence.AppendCallback(() => {
             BattleManager.Instance.ResetBattle();
-            //jbrBet.SetActive(false);
             table.SetEnable(true);
             SetEnableChipMenuGrp(true);
 
@@ -442,9 +447,7 @@ public class UIGameplay : UIPage
             if (currSequence.active)
                 currSequence.Kill();
         }
-        //jbrFight.SetActive(true);
         currSequence = DOTween.Sequence();
-        //currSequence.Append(rectJumbotron.DOAnchorPos(new Vector2(0f, 0f), 0.3f));
         currSequence.AppendCallback(() =>
         {
             skeleJumbotron.AnimationState.TimeScale = 2.5f;
@@ -453,14 +456,12 @@ public class UIGameplay : UIPage
         currSequence.Join(table.CanvaGroup.DOFade(0f, 0.3f));
         currSequence.Join(chipMenuGrp.DOFade(0f, 0.3f));
         currSequence.AppendInterval(0.25f);
-        //currSequence.Append(rectJumbotron.DOAnchorPos(new Vector2(0f, 1300f), 0.25f));
         currSequence.AppendCallback(() => {
             CopyToLastBets();
             BattleManager.Instance.TargetGoal = Random.Range(0, 36);
             BattleManager.Instance.Play();
 
             StartRouletteWheel();
-            //jbrFight.SetActive(false);
         });
         bgBet.DOFade(0f, 0.7f);
     }

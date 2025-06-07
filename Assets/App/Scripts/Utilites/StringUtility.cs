@@ -31,10 +31,21 @@ public static class StringUtility
             return number.ToString("0.##");
     }
 
-    public static string ConvertDoubleToString(double input)
+    public static string ConvertDoubleToStringCurrency(double input)
     {
-        CultureInfo cultureInfo = new CultureInfo("en-US");
-        string formattedNumber = input.ToString("N0", cultureInfo);
+        string currencyCode = PlayerData.Instance.GetUserCurrency();
+        double validation = input % 1;
+        CultureInfo cultureInfo = new CultureInfo(currencyCode != "idr" ? "en-US" : "id-ID");
+        string formattedNumber = currencyCode.ToUpper() + " " + input.ToString((validation == 0 ? "N0" : "N2"), cultureInfo);
+        return formattedNumber;
+    }
+
+    public static string ConvertDoubleToString(double input, string currency = "usd")
+    {
+        string currencyCode = currency.ToLower();
+        double validation = input % 1;
+        CultureInfo cultureInfo = new CultureInfo(currencyCode != "idr" ? "en-US" : "id-ID");
+        string formattedNumber = input.ToString((validation == 0 ? "N0" : "N2"), cultureInfo);
         return formattedNumber;
     }
 

@@ -51,7 +51,7 @@ public class FSMMotor : MonoBehaviour
             {
                 case true:
                     if (state != State.Dead)
-                        body2D.velocity = Vector2.zero;
+                        body2D.linearVelocity = Vector2.zero;
                     if (state == State.Dead)
                         return;
                     SwitchStateTo(State.Idle);
@@ -191,7 +191,7 @@ public class FSMMotor : MonoBehaviour
 
         if (action == null)
         {
-            body2D.velocity = Vector2.zero;
+            body2D.linearVelocity = Vector2.zero;
             SwitchStateTo(State.Chase);
             return;
         }
@@ -257,7 +257,7 @@ public class FSMMotor : MonoBehaviour
     {
         if (currentTarget == null)
         {
-            body2D.velocity = Vector2.zero;
+            body2D.linearVelocity = Vector2.zero;
             SwitchStateTo(State.Idle);
             return;
         }
@@ -265,7 +265,7 @@ public class FSMMotor : MonoBehaviour
         float distance = Vector2.Distance(currentTarget.transform.position, transform.position);
         if (distance <= distanceAction)
         {
-            body2D.velocity = Vector2.zero;
+            body2D.linearVelocity = Vector2.zero;
             SwitchStateTo(State.Action);
             currentTick = 0f;
             return;
@@ -278,12 +278,12 @@ public class FSMMotor : MonoBehaviour
         Quaternion rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, angularSpeed * Time.deltaTime);
 
         body2D.SetRotation(rotation);
-        body2D.velocity = transform.up * speed;
+        body2D.linearVelocity = transform.up * speed;
 
         currentTick += Time.deltaTime;
         if (currentTick >= 5f)
         {
-            body2D.velocity = Vector2.zero;
+            body2D.linearVelocity = Vector2.zero;
             SwitchStateTo(State.Idle);
             currentTick = 0f;
         }
@@ -372,7 +372,7 @@ public class FSMMotor : MonoBehaviour
             if (BattleManager.Instance.CurrentState == BattleManager.State.Finish && BattleManager.Instance.AvatarGoal != null)
             {
                 if (BattleManager.Instance.AvatarGoal.IdView != idView)
-                    body2D.velocity = Vector2.zero;
+                    body2D.linearVelocity = Vector2.zero;
             }
             return;
         }
@@ -457,7 +457,7 @@ public class FSMMotor : MonoBehaviour
         currentHit++;
         if (currentHit >= 4)
             currentHit = 0;
-        body2D.velocity = Vector2.zero;
+        body2D.linearVelocity = Vector2.zero;
         if (customAct != null)
         {
             if (customAct.active)
@@ -475,7 +475,7 @@ public class FSMMotor : MonoBehaviour
         }
         if (UIGameplay.Instance.RotateBased <= 0f && BattleManager.Instance.AvatarGoal == null)
         {
-            body2D.velocity = Vector2.zero;
+            body2D.linearVelocity = Vector2.zero;
             SetToVictim(true);
             SetToDead();
             if (customAct != null)
@@ -506,7 +506,7 @@ public class FSMMotor : MonoBehaviour
         anim.Play("idle");
         SwitchStateTo(State.Idle);
         SetToVictim(false);
-        body2D.velocity = Vector2.zero;
+        body2D.linearVelocity = Vector2.zero;
 
         for (int i = 0; i < availableActions.Count; i++)
         {
@@ -527,7 +527,7 @@ public class FSMMotor : MonoBehaviour
     public void SetToDeadVelocity()
     {
         body2D.angularVelocity = 0f;
-        body2D.velocity = new Vector2(0f, 0f);
+        body2D.linearVelocity = new Vector2(0f, 0f);
 
         skeleRoost.AnimationState.SetAnimation(0, "die", true);
         animationListener.PlayAudio("die01");
@@ -545,7 +545,7 @@ public class FSMMotor : MonoBehaviour
         anim.Play("idle");
         SwitchStateTo(State.Idle);
         SetToVictim(false);
-        body2D.velocity = Vector2.zero;
+        body2D.linearVelocity = Vector2.zero;
         transform.position = positionAwake;
         transform.eulerAngles = eulerAwake;
 
